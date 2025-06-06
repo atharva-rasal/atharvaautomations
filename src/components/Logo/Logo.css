@@ -1,0 +1,24 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.name_container {
+  display: flex;
+  gap: 1px;
+  position: relative;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.name_container .left_name {
+  font-size: 45px;
+  top: -10;
+}
+
+.name_container .right_name {
+  display: flex;
+  flex-direction: column;
+}
