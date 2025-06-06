@@ -12,8 +12,8 @@ const Contact = () => {
               <span className="g-text">Contact Us</span>
             </h1>
             <p className="text_muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              consequuntur corporis
+              If you have any questions or need further information, please feel
+              free to contact us.
             </p>
           </div>
           <div className="contact_form_middle">
@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
             <textarea
               name="message"
-              cols={30}
+              cols={20}
               rows={10}
               placeholder="Message"
               className="control"

@@ -16,10 +16,10 @@ const Achievement = () => {
 
   useEffect(() => {
     const timeOutId = setTimeout(() => {
-      setClients(120);
+      setClients(100);
       setProjects(150);
-      setTeams(44);
-      setAwards(89);
+      setTeams(10);
+      setAwards(20);
     }, 3000);
 
     return () => clearTimeout(timeOutId);
@@ -48,7 +48,7 @@ const Achievement = () => {
         <div className="details">
           <div className="count_row">
             <Odometer value={clients} className="title" />
-            <h1 className="g-text title">K</h1>
+            <h1 className="g-text title">+</h1>
           </div>
           <small className="text_muted">Happy Customers</small>
         </div>

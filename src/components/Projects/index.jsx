@@ -32,15 +32,17 @@ const Projects = () => {
         <h1 className="title">
           Our <span className="g-text">Projects</span>
         </h1>
-        <h3 className="sub_title">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </h3>
+        <h3 className="sub_title">Some of major projects we have worked on.</h3>
       </div>
       <Slider {...settings} className="projects_container">
         {projects.map((project, index) => (
           <React.Fragment key={index}>
             <div className="image_container">
-              <img src={project.image} alt={project.title} />
+              <img
+                src={project.image}
+                alt={project.title}
+                className="project_image"
+              />
             </div>
             <div className="box">
               <h1 className="name">{project.title}</h1>

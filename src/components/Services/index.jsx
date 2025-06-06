@@ -12,7 +12,7 @@ const Services = () => {
           <h1 className="title">
             Our <span className="g-text">Services</span>
           </h1>
-          <h3 className="sub_title">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 className="sub_title">Various services that we offer.</h3>
         </div>
         <div className="services_container">
           {services.map((service, index) => (

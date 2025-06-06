@@ -11,8 +11,6 @@ import {
   FaMicrochip,
   FaProjectDiagram,
   FaRegChartBar,
-  FaYoutube,
-  FaInstagram,
   FaBoxes,
 } from "react-icons/fa";
 import {
@@ -25,33 +23,19 @@ import {
   GiCutDiamond,
 } from "react-icons/gi";
 import {
-  profile2,
-  profile3,
-  profile4,
-  profile5,
-  member1,
-  member2,
-  member3,
-  member4,
-  building_5,
-  building_6,
-  building_7,
-  building_8,
-  building_9,
-  building_10,
-  blog_1,
-  blog_2,
-  blog_3,
+  projects_1,
+  projects_2,
+  projects_3,
+  projects_4,
+  projects_5,
+  projects_6,
 } from "./assets";
 
 export const navTabs = [
   { name: "Home", id: "header" },
   { name: "About Us", id: "about" },
   { name: "Services", id: "services" },
-  // { name: "Team", id: "team" },
   { name: "Project", id: "project" },
-  // { name: "Testimonial", id: "testimonial" },
-  // { name: "Blog", id: "blog" },
 ];
 
 export const services = [
@@ -135,198 +119,36 @@ export const industries = [
   },
 ];
 
-export const teams = [
-  {
-    name: "Oluoma James",
-    title: "Technician",
-    profile: member1,
-    social: [
-      { name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
-      { name: "LinkedIn", icon: <CiLinkedin />, url: "http://linkedin.com" },
-      {
-        name: "Youtube",
-        icon: <FaYoutube />,
-        url: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-      },
-      { name: "Instagram", icon: <FaInstagram />, url: "http://instagram.com" },
-    ],
-  },
-  {
-    name: "Mary Brown",
-    title: "Technician",
-    profile: member2,
-    social: [
-      { name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
-      { name: "LinkedIn", icon: <CiLinkedin />, url: "http://linkedin.com" },
-      {
-        name: "Youtube",
-        icon: <FaYoutube />,
-        url: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-      },
-      { name: "Instagram", icon: <FaInstagram />, url: "http://instagram.com" },
-    ],
-  },
-  {
-    name: "Lawrence Onu",
-    title: "Technician",
-    profile: member3,
-    social: [
-      { name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
-      { name: "LinkedIn", icon: <CiLinkedin />, url: "http://linkedin.com" },
-      {
-        name: "Youtube",
-        icon: <FaYoutube />,
-        url: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-      },
-      { name: "Instagram", icon: <FaInstagram />, url: "http://instagram.com" },
-    ],
-  },
-  {
-    name: "Joy Eze",
-    title: "Technician",
-    profile: member4,
-    social: [
-      { name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
-      { name: "LinkedIn", icon: <CiLinkedin />, url: "http://linkedin.com" },
-      {
-        name: "Youtube",
-        icon: <FaYoutube />,
-        url: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-      },
-      { name: "Instagram", icon: <FaInstagram />, url: "http://instagram.com" },
-    ],
-  },
-];
-
 export const projects = [
   {
-    title: "Residential Development Project",
-    image: building_5,
-    description: `A comprehensive residential development involving the construction of a new 
-        housing community from initial site clearing and preparation to final home construction and landscaping`,
+    title: "Reheating Furnace at Tata Steel, Jaspur & Vizag Steel Plant",
+    image: projects_1,
+    description: `Automated control systems for reheating furnaces to ensure consistent temperature and energy efficiency. Integrated with plant operations for improved steel processing at Tata and Vizag locations.`,
   },
   {
-    title: "Commercial Office Building",
-    image: building_6,
-    description: `The construction of a multi-story office building including all 
-       architectural and structural design, coordination of specialized trades for 
-       HVAC and electrical systems, and complete project oversight.`,
+    title: "Mix Spices Plant at KPG Spices, Manesar",
+    image: projects_2,
+    description: `End-to-end automation for spice mixing and packaging to boost production efficiency and quality control. Customized system tailored to spice blending requirements at KPG Spices.`,
   },
   {
-    title: "Retail Space Renovation",
-    image: building_7,
-    description: `Transforming an outdated retail store into a modern commercial space, 
-    involving interior demolition, new layout design, installation of new fixtures, 
-    and updating utilities.`,
+    title: "KHS Can Line at Angola, Africa",
+    image: projects_3,
+    description: `Automated canning line integration for beverage packaging using KHS equipment. Enhanced throughput and real-time monitoring deployed at the Angola facility.`,
   },
   {
-    title: "Industrial Warehouse Construction",
-    image: building_8,
-    description: `Building a large-scale industrial warehouse, including land clearing,
-     foundation work, steel structure erection, and complete construction management 
-     from start to finish.`,
+    title: "Bullet Case Gauging Machine for Ordnance Factory",
+    image: projects_4,
+    description: `Precision gauging machine developed for defense manufacturing to ensure dimensional accuracy of ammunition cases. Automated inspection and quality assurance integrated with ordnance production.`,
   },
   {
-    title: "Historic Building Restoration",
-    image: building_9,
-    description: `Restoring and renovating a historic building to preserve its architectural integrity while updating it to meet modern standards, involving meticulous 
-    craftsmanship and specialized restoration techniques.`,
+    title: "Burst Testing Jig for BOSCH India",
+    image: projects_5,
+    description: `Custom-built jig to perform burst pressure testing on components for BOSCH India. Enhanced safety and compliance through automated testing routines.`,
   },
   {
-    title: "Educational Facility Expansion",
-    image: building_10,
-    description: `Expanding an existing school with new classrooms and facilities, encompassing all phases from initial design and site preparation to construction and 
-    final project management to ensure timely completion.`,
-  },
-];
-
-export const testimonial = [
-  {
-    image: profile2,
-    name: "Samuel Eze",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`,
-  },
-  {
-    image: profile3,
-    name: "Emmanuel Joseph",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-  {
-    image: profile4,
-    name: "Gloria Chiwendu",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`,
-  },
-  {
-    image: profile5,
-    name: "Precious Stone",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-];
-
-export const blogs = [
-  {
-    title: "Sustainable Construction: Building for the Future",
-    image: blog_1,
-    category: "Building",
-    content: `
-        As the construction industry continues to evolve, the focus on sustainability 
-        has never been more critical. Sustainable construction is not just a trend; 
-        it's a necessity for our planet's future. In this blog post, we'll explore 
-        the principles of sustainable construction, the benefits it offers, and how 
-        our company is leading the way in eco-friendly building practices.
-      `,
-    date: new Date("January 10, 2024"),
-    likeCount: 34,
-    commentCount: 4,
-    tags: ["Edu4CommDev", "CommGrowthEdu", "EducateCommunities"],
-    poster: {
-      name: "Johnson",
-    },
-  },
-  {
-    title: "The Importance of Quality Craftsmanship in Construction",
-    image: blog_2,
-    category: "Construction",
-    content: `
-        Quality craftsmanship is the cornerstone of any successful construction project.
-         It ensures that buildings are not only aesthetically pleasing but also durable 
-         and safe. In this blog post, we'll delve into why quality craftsmanship matters 
-         and how our company upholds the highest standards in every project we undertake.
-      `,
-    date: new Date("December 15, 2023"),
-    likeCount: 201,
-    commentCount: 123,
-    tags: ["Skills4Growth", "EconSkillImpact", "GrowWithSkills"],
-    poster: {
-      name: "Bissi",
-    },
-  },
-  {
-    title: "Innovative Technologies Transforming the Construction Industry",
-    image: blog_3,
-    category: "Innovations",
-    content: `
-      The construction industry is undergoing a revolution, thanks to the advent of 
-      innovative technologies. These advancements are making construction projects 
-      more efficient, cost-effective, and sustainable. In this blog post, we'll 
-      explore some of the most exciting technologies transforming the way we build 
-      and how our company is leveraging them to deliver superior results.
-      `,
-    date: new Date("July 20, 2023"),
-    likeCount: 198,
-    commentCount: 121,
-    tags: ["CommEdu", "CommunityEngagement", "EduCommunity"],
-    poster: {
-      name: "Abisola",
-    },
+    title: "Krones Can Line at Nepal",
+    image: projects_6,
+    description: `Turnkey automation solution for Krones can filling and packaging line. Delivered seamless operations with reduced manual intervention for the Nepal-based plant.`,
   },
 ];
 

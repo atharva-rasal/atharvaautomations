@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import "./Header.css";
 import { Link } from "react-scroll";
-import { hero_image } from "../../assets";
 import { automation } from "../../assets";
 import Achievement from "../Achievement";
 import { useGSAP } from "@gsap/react";
