@@ -35,6 +35,7 @@ export const navTabs = [
   { name: "Home", id: "header" },
   { name: "About Us", id: "about" },
   { name: "Services", id: "services" },
+  { name: "Industries", id: "industry" },
   { name: "Project", id: "project" },
 ];
 
@@ -185,10 +186,7 @@ export const footer = [
       { name: "Home", id: "header" },
       { name: "About Us", id: "about" },
       { name: "Services", id: "services" },
-      { name: "Team", id: "team" },
       { name: "Project", id: "project" },
-      { name: "Testimonial", id: "testimonial" },
-      { name: "Blog", id: "blog" },
     ],
   },
 ];

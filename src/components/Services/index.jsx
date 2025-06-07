@@ -2,7 +2,7 @@ import React from "react";
 import "./Services.css";
 import { services } from "../../data";
 import ServiceCard from "./ServiceCard";
-import Industries from "../Industries";
+import Slider from "../Slider";
 
 const Services = () => {
   return (
@@ -25,7 +25,7 @@ const Services = () => {
           ))}
         </div>
       </div>
-      <Industries />
+      {/* <Slider /> */}
     </section>
   );
 };
